@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;            
+    font: normal 12px "noto sans korean";
+}
+
+ul, ol {list-style: none;}
+a {text-decoration: none; color: #111;}
+
+#wrapper {
+    width: 100%;
+    height: 100%;            
+}
+
+header {
+    width: 100%;
+    height: auto;            
+}
+
+header > div {
+    width: 100%;
+}
+
+header > div:nth-child(1) {
+    height: 36px;
+    border-bottom: 1px solid #dcdcdc;
+    box-sizing: border-box;
+}
+header > div:nth-child(2) {height: 100px;}
+header > div:nth-child(3) {
+    height: 54px;
+    background: #40382e;
+}
+
+header > div > * {
+    width: 1100px;
+    height: 100%;            
+    margin: 0 auto;
+}
+
+header .top > p {float: right; margin-top: 10px;}
+header article {
+    position: relative;
+}
+
+header article > .shopping {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+header article > .shopping > img {}
+header article > .shopping > span:nth-of-type(1) {
+    color: #ff6a00;
+    font-size: 15px;
+    font-weight: 500;
+}
+header article > .shopping > span:nth-of-type(2) {
+    font-size: 12px;
+}
+
+header article > .logo {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    margin-left: -173px;
+}
+
+header article > .oneday_txt {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+       
+header nav > ul {
+    width: 100%;
+    height: 100%;            
+}
+header nav > ul > li {
+    float: left;
+    width: 11.11%;
+    height: 100%;
+}
+header nav > ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 54px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+header nav > ul > li > a:hover {color: #ff6a00;}
+
+
+
+
+main {
+    width: 100%;
+    height: auto;            
+}
+
+main > section {
+    width: 100%;
+    height: auto;            
+}
+
+main > section:nth-child(1) {height: 352px;}
+main > section:nth-child(2) {height: 520px;}
+main > section:nth-child(3) {height: 190px;}
+main > section:nth-child(4) {height: 660px;}
+main > section:nth-child(5) {height: 200px;}
+main > section:nth-child(6) {height: 660px;}
+
+main > section > article {
+    width: 1100px;
+    height: 100%;            
+    margin: 0 auto;
+}
+
+main > .slider {
+    background: #ffeed4;
+}
+
+main > .slider ul {
+    position: relative;
+    width: 100%;
+    height: 100%;            
+    overflow: hidden;
+    
+}
+main > .slider ul > li{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+main > .slider ul > li:nth-child(1){left: 0; top: 0;}
+main > .slider ul > li:nth-child(2){left: 100%; top: 0;}
+main > .slider ul > li:nth-child(3){left: 200%; top: 0;}
+main > .slider ul > li:nth-child(4){left: 300%; top: 0;}
+main > .slider ul > li:nth-child(5){left: 400%; top: 0;}
+
+main > .go {}
+
+main > .go > article {
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+main > .go > article > .banner {
+    position: relative;
+    float: left;
+}
+
+main > .go > article > .banner1 {
+    width: 412px; 
+    height: 450px;
+    background-image: url('/foodshop/images/main_go_bg1.png');
+}
+main > .go > article > .banner2 {
+    width: 322px;
+    height: 220px;
+    margin-left: 11px;
+    background-image: url('/foodshop/images/main_go_bg2.png');
+}
+main > .go > article > .banner3 {
+    float:right; 
+    width: 322px;
+    height: 220px;
+    background-image: url('/foodshop/images/main_go_bg3.png');
+}
+main > .go > article > .banner4 {
+    width: 322px; 
+    height: 220px;
+    margin-left: 11px;
+    margin-top: 10px;
+    background-image: url('/foodshop/images/main_go_bg4.png');
+}
+main > .go > article > .banner5 {
+    float:right;
+    width: 322px;
+    height: 220px;
+    margin-top: 10px;
+    background-image: url('/foodshop/images/main_go_bg5.png');
+}
+
+
+main > .go > article > .banner > a {
+    position: absolute;            
+    left: 26px;
+    top: 36px;
+}
+
+main > .go > article > .banner > a .category {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff6312;
+}
+
+main > .go > article > .banner > a .title {
+    font-size: 24px;            
+    color: #fcfffd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+main > .go > article > .banner > a .title.dark {
+    color: #3c362a;
+}
+
+
+main > .go > article > .banner > a .title > i {
+    display: block;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+main > .oneday {
+    background-image: url('/foodshop/images/oneday_bg.png');
+    background-size: cover;
+    background-position: 50% center;
+}
+
+main > .oneday > article img {margin-top: 50px;}
+
+main > .vegetable {}
+main > .vegetable > article {
+    padding: 60px 0px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+main .thumb_rolling {            
+    width: 100%;
+    height: 312px;
+    margin-top: 36px;            
+    box-sizing: border-box;
+    overflow: hidden;
+}
+main .thumb_rolling > li {
+    float: left;            
+    top: 0px;
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+main .thumb_rolling > li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main .thumb_rolling > li img {
+    width: 100%;
+    height: 170px; 
+    object-fit: cover;
+}
+
+main .thumb_rolling > li h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #41392f;
+    margin-top: 12px;
+}
+main .thumb_rolling > li p {
+    font-size: 13px;
+    font-weight: bold;          
+    color: #959595;
+    margin: 12px 0 26px;
+}
+main .thumb_rolling > li h2 {
+    font-size: 20px;
+    font-weight: bold;          
+    color: #ff6a00;
+}
+
+main .all {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #efefef;
+    box-shadow: 0px 2px 2px #999;
+    text-align: center;
+    line-height: 50px;
+    margin: 56px auto 0;            
+    color: #626262;
+    font-size: 15px;
+    font-weight: bold;
+}
+main .all:hover {border-color: #999;}
+
+main > .premium {
+    background-image: url('/foodshop/images/premium_bg.png');
+    background-size: cover;
+    background-position: 50% center;
+}
+
+main > .premium > article {
+    text-align: center;            
+}
+main > .premium > article img {margin-top: 52px;}
+
+main > .seafood {}
+main > .seafood > article {            
+    padding: 60px 0px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+footer > div {
+    width: 100%;
+}
+
+footer > div:nth-child(1) {
+    height: 50px;
+    background-color: #626262;
+}
+
+footer > div:nth-child(2) {
+    height: 156px;           
+    background-color: #434343; 
+}
+
+footer > div > div {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer .terms {   
+    float: left;         
+    margin-top: 14px;
+    color: #eee;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer .terms > a {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+footer .terms > a:first-child {color: #ff6a00;}
+
+footer .info {
+    float: left;
+    margin-top: 16px;
+    color: #aca9a9;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+footer .tel {            
+    float: right;
+    margin-top: 16px;
+}
