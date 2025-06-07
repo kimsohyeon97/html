@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px "Noto Sans KR";
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+/* ---------------- header ---------------- */
+
+header {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+header > div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header > div > * {
+    width: 980px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header .top > p {
+    float: right;
+    margin-top: 10px;
+}
+
+header article {
+    position: relative;
+}
+
+header > div:nth-child(2) {
+    width: 100%;
+    height: 85px;
+}
+
+header article > .logo {
+    position: absolute;
+    left: 390px;
+    top: 20px;
+}
+
+header article > .freeShipping {
+    position: absolute;
+    right: 0;
+    top: 59px;
+}
+
+header > div:nth-child(3) {
+    width: 100%;
+    height: 50px;
+}
+
+header > div:nth-child(3) > ul {
+    position: relative;
+}
+
+header > div:nth-child(3) > ul > li {
+    float: right;
+}
+
+header > div:nth-child(3) > ul > li > a > img {
+    display: block;
+}
+
+.head_badge {
+    position: absolute;
+    left: 295px;
+    top: -13px;
+}
+
+/* ---------------- main ---------------- */
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+main .login {
+    width: 359px;
+    height: auto;
+    margin: 100px auto 160px auto;
+    border: 1px solid #cfded8;
+    box-sizing: border-box;
+}
+
+main .login table {
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+main .login tr {
+    width: 190px;
+    height: 28px;
+}
+
+main .login tr:nth-of-type(2) {
+    margin-top: 28px;
+}
+
+main .login tr input {
+    width: 164px;
+    height: 24px;
+    padding-left: 6px;
+    padding-bottom: 1px;
+    margin-left: 5px;
+    border: 1px solid #e4eaec;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+main .login tr > td > img {
+    width: 20px;
+    height: 16.83px;
+}
+
+main .login .btnLogin {
+    position: absolute;
+    width: 61px;
+    height: 53px;
+    margin-top: 65px;
+    margin-left: 248px;
+    border: 1px solid #bebebe;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+}
+
+main .login div:nth-of-type(2) {
+    width: auto;
+    height: 112px;
+    border-collapse: collapse;
+    border: 1px solid #cfded8;
+    box-sizing: border-box;
+    background-color: #f5f6fa;
+}
+
+main .login div:nth-of-type(2) h3 {
+    width: 90.2px;
+    height: 14px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+main .login div:nth-of-type(2) p {
+    width: 231.2px;
+    height: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+main .login div:nth-of-type(2) > div {
+    width: 173.01px;
+    height: 14px;
+    margin-top: 10px;
+    margin-left: 164.19px;
+}
+
+main .social_login {
+    display: inline-flex;
+    width: 107px;
+    height: 36px;
+    margin-left: 73px;
+    margin-top: 128px;
+    margin-bottom: 15px;
+}
+
+main .social_login img {
+    margin-left: -4px;
+    width: 48px;
+    height: 45px;
+}
+
+
+/* ---------------- footer ---------------- */
+
+footer {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+footer > div {
+    width: 100%;
+    height: 120px;
+}
+
+footer > div > div {
+    width: 980px;
+    height: 100%;
+    border-top: 1px solid #D1CAB2;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+footer > div > div > div  {
+    float: right;
+    margin-top: 25px;
+}
+
+footer > div > div > div p {
+    font-size: 10px;
+    line-height: 18px;
+    color: #585858;
+}
+
+footer > div > div > div > p:nth-child(2) {
+    float: left;
+    color: #888888;
+}
+footer > div > div > div > p:nth-child(3) {
+    float: right;
+    color: #888888;
+}
+
+
+

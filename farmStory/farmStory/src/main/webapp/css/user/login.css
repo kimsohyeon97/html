@@ -1,0 +1,101 @@
+main {
+    width: 100%;
+    height: auto;
+}
+
+main .login {
+    width: 359px;
+    height: auto;
+    margin: 100px auto;
+    border: 1px solid #cfded8;
+    box-sizing: border-box;
+}
+
+main .login table {
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+main .login tr {
+    width: 190px;
+    height: 28px;
+}
+
+main .login tr:nth-of-type(2) {
+    margin-top: 28px;
+}
+
+main .login tr input {
+    width: 164px;
+    height: 24px;
+    padding-left: 6px;
+    padding-bottom: 1px;
+    margin-left: 5px;
+    border: 1px solid #e4eaec;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+main .login tr > td > img {
+    width: 20px;
+    height: 16.83px;
+}
+
+main .login .btnLogin {
+    position: absolute;
+    width: 61px;
+    height: 53px;
+    margin-top: 65px;
+    margin-left: 248px;
+    border: 1px solid #bebebe;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+}
+
+main .login div:nth-of-type(2) {
+    width: auto;
+    height: 112px;
+    border-collapse: collapse;
+    border-top: 1px solid #cfded8;
+    box-sizing: border-box;
+    background-color: #f5f6fa;
+}
+
+main .login div:nth-of-type(2) h3 {
+    width: 90.2px;
+    height: 14px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+main .login div:nth-of-type(2) p {
+    width: 231.2px;
+    height: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+main .login div:nth-of-type(2) > div {
+    width: 173.01px;
+    height: 14px;
+    margin-top: 10px;
+    margin-left: 164.19px;
+}
+
+main .social_login {
+    display: inline-flex;
+    width: 107px;
+    height: 36px;
+    margin-left: 73px;
+    margin-top: 128px;
+    margin-bottom: 15px;
+}
+
+main .social_login img {
+    margin-left: -4px;
+    width: 48px;
+    height: 45px;
+}

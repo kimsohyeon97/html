@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h3>
+                <a href="../index.html" class="title">Board Project</a>
+            </h3>
+        </header>
+        <main id="user">
+            <section class="info">
+                <form action="#">
+                    <h2 class="tit">회원정보 설정</h2>
+                    <table border="1">
+                        <tbody>
+                            <tr>
+                                <td>아이디</td>
+                                <td>abc</td>
+                            </tr>
+                            <tr>
+                                <td>비밀번호</td>
+                                <td><input type="password" name="pass" placeholder="비밀번호 입력"></td>
+                            </tr>
+                            <tr>
+                                <td>비밀번호 확인</td>
+                                <td><input type="password" name="pass" placeholder="비밀번호 입력 확인"><button class="btnUpdatePass">비밀번호 수정</button></td>
+                            </tr>
+                            <tr>
+                                <td>회원가입날짜</td>
+                                <td>2022-01-01 12:45:12</td>
+                            </tr>                        
+                        </tbody>
+                    </table>
+                    <h2>개인정보 수정</h2>
+                    <table border="1">
+                        <tbody>
+                            <tr>
+                                <td>이름</td>
+                                <td><input type="text" name="name" placeholder="이름 입력"></td>
+                            </tr>
+                            <tr>
+                                <td>별명</td>
+                                <td>
+                                    <p class="nickInfo"></p>
+                                    <input type="text" name="nick" placeholder="별명 입력"><button id="btnNickCheck"><img src="../images/chk_id.gif" alt="중복 확인"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>이메일</td>
+                                <td>
+                                    <input type="email" name="email" placeholder="이메일 입력"><button id="btnNickCheck"><img src="../images/chk_auth.gif" alt="인증번호 받기"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>휴대폰</td>
+                                <td>
+                                    <input type="text" name="phone" placeholder="휴대폰 입력">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>주소</td>
+                                <td>
+                                    <input type="text" name="post" placeholder="우편번호">
+                                    <button><img src="../images/chk_post.gif" alt="우편번호 찾기"></button>
+                                    <input type="text" name="addr" placeholder="주소 검색">
+                                    <input type="text" name="addr2" placeholder="상세주소 입력">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>회원탈퇴</td>
+                                <td>
+                                    <button class="btnWithdraw">
+                                        탈퇴하기
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <span class="Copyright">Copyrightⓒ 한결</span>
+                <span class="version">v1.0.1</span>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
